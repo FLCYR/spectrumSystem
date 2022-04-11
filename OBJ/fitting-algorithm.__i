@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\MODBUS_MASTER -I..\HARDWARE\TIMER -I.\GLTCON -I..\EEPROM -I..\SPI -I..\SPI2
+-I D:\ModBus\ModBus-Master\USER\RTE
+-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-I d:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\fitting-algorithm.o --omf_browse ..\obj\fitting-algorithm.crf --depend ..\obj\fitting-algorithm.d "fitting-algorithm.c"
